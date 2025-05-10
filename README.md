@@ -1,3 +1,16 @@
+# Purpose for fork
+
+The main purpose for this for is to fix a highlighting bug that exists on the original version.
+```
+Error detected while processing TextChangedI Autocommands for "<buffer=15>":
+Error executing lua callback: ...nvim-rip-substitute/lua/rip-substitute/rg-operations.lua:180: attempt to index field 'hl' (a nil value)
+stack traceback:
+	...nvim-rip-substitute/lua/rip-substitute/rg-operations.lua:180: in function 'f'
+	...llar/neovim/0.10.4_1/share/nvim/runtime/lua/vim/iter.lua:366: in function 'each'
+	...nvim-rip-substitute/lua/rip-substitute/rg-operations.lua:177: in function 'incrementalPreviewAndMatchCount'
+	...azy/nvim-rip-substitute/lua/rip-substitute/popup-win.lua:400: in function <...azy/nvim-rip-substitute/lua/rip-substitute/popup-win.lua:395>
+```
+
 <!-- LTeX: enabled=false -->
 # rip-substitute 🪦
 <!-- LTeX: enabled=true -->
