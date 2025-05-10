@@ -177,8 +177,8 @@ function M.incrementalPreviewAndMatchCount()
 	vim.iter(searchMatches):slice(viewStartIdx, viewEndIdx):map(parseRgResult):each(function(match)
 		local matchEndCol = match.col + #match.text
 		if toReplace == "" then
-			if vim.hl.range then
-				vim.hl.range(
+			if vim.highlight.range then
+				vim.highlight.range(
 					state.targetBuf,
 					ns,
 					hlGroup,
