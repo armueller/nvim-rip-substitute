@@ -1,6 +1,6 @@
 # Purpose for fork
 
-The main purpose for this for is to fix a highlighting bug that exists on the original version.
+The main purpose for this fork is to fix a highlighting bug that exists on the original version.
 ```
 Error detected while processing TextChangedI Autocommands for "<buffer=15>":
 Error executing lua callback: ...nvim-rip-substitute/lua/rip-substitute/rg-operations.lua:180: attempt to index field 'hl' (a nil value)
